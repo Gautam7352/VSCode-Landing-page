@@ -1,44 +1,65 @@
-.header {
+.header{
   display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  padding: 10px;
+  text-align: center;
   justify-content: space-around;
+  height: 30px;
 }
 
-.menu {
+.favicon{
   display: flex;
-  justify-content: space-evenly;
-  padding: 5px;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+  height: 30px;
+  align-self: center;
 }
 
-.logo {
-  font-size: 20px;
+.menu{
   display: flex;
-  justify-content: space-evenly;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+} 
+
+.m{
+  display: flex;
+  padding: 10px;
+}
+
+.Hero{
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
   align-items: center;
-}
-
-.m {
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;  
-}
-
-.mc{
-  padding: 4px;
-}
-
-.Hero {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.Hpart1{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: first baseline;
 }
 
 .Hpart2{
-  width: 50%;
+  width:100%
+}
+
+.Hpart1{
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  align-self: center;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #0078d4;
+  color: white;
+  padding: 10px;
+}
+
+a{
+  color: #0078d4;
 }
